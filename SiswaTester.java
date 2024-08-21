@@ -3,11 +3,11 @@ public class SiswaTester {
     public static void main(String[] args) {
         //membuat objek
         //namaClass namaObjek = new Constructor();
-        Siswa Bella = new Siswa();
-        Siswa Zahra = new Siswa();
-        Siswa Nasya = new Siswa();
-        Siswa Lia = new Siswa();
-        Siswa Sativa = new Siswa();
+        Siswa Bella = new Siswa(5,  "Bella", 90);
+        Siswa Zahra = new Siswa(35, "Zahra", 95);
+        Siswa Nasya = new Siswa(26, "Nasya", 93);
+        Siswa Lia = new Siswa(6, "Lia", 92);
+        Siswa Sativa = new Siswa(31, "Sativa", 95);
 
         Bella.id = 05;
         Bella.nama = "Bella";
